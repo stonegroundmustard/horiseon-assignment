@@ -1,0 +1,164 @@
+/* Border size for enitre webpage */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Background color for entire webpage */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Font family, spacing and background color for header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* "Horiseon" font size and centering */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Color distinction for the "seo" in "Horiseon" */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Font design and box model measurements for nav links */
+header nav {
+    padding-top: 25px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Centerization and list type of nav links */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+/* Classifying the link list as unordered/none */
+header nav ul {
+    list-style-type: none;
+}
+
+
+/* Text color and size of nav links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Paragraph font size */
+p {
+    font-size: 16px;
+}
+
+/* Banner image under header and its styling, centerization */
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: contain;
+}
+
+/*  Float-left and float-right places the images on the side of its container, allowing text and inline elements to wrap */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Spacial characterization, background color and font family of the "Benefits" side bar */
+.sidebar {
+    margin-right: 20px;
+    padding: 9px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Specifying the margin size, horizontal alignment of text and color for benefit tabs */
+.sidebar {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-info {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-info {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+/* Specifying the display configuration, margin spacing and pixel width for benefit images */
+.benefit-info img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* The box model specs, font design and background for benefit tabs */
+.section-info {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* Max image pixelization for benefits */
+.section-info img {
+    max-height: 200px;
+}
+
+
+/* Margin spacing and font size for benefit titles */
+.section-info h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/* Font design and padding for footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
